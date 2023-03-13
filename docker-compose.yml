@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  fleetinventorymanagement:
+    image: ${DOCKER_REGISTRY-}fleetinventorymanagement
+    build:
+      context: .
+      dockerfile: FleetInventoryManagement/Dockerfile
