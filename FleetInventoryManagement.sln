@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FleetInventoryManagement", "FleetInventoryManagement/FleetInventoryManagement.csproj", "{B87FD89A-FA29-4F4F-9193-DD5AC8367AE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FleetInventoryManagement", "FleetInventoryManagement\FleetInventoryManagement.csproj", "{B87FD89A-FA29-4F4F-9193-DD5AC8367AE5}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EC70B418-E466-4A28-A3BF-6897B2CB5D10}"
 EndProject

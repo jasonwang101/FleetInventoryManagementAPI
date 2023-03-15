@@ -18,7 +18,6 @@ namespace FleetInventoryManagement.Data
 
         public static async Task CheckAndSeedDatabaseAsync(FleetInventoryManagementContext context)
         {
-            context.Database.EnsureDeleted();
             if (context.Database.EnsureCreated())
             {
                 var customers = Seed.GetCustomers();
