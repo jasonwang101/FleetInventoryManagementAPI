@@ -19,7 +19,7 @@ namespace FleetInventoryManagement.Data
         [UseProjection]
         [UseFiltering]
         [UseSorting]
-        public IQueryable<Vehicle> GetVehicle([Service] FleetInventoryManagementContext context) =>
+        public IQueryable<Vehicle> GetVehicles([Service] FleetInventoryManagementContext context) =>
             context.Vehicle;
     }
 }
